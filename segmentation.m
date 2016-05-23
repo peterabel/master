@@ -28,8 +28,8 @@ for frame=1:1
     mu_neg = meanValuesNegative;
     sigma_neg = sqrt(varValuesNegative);
     
-    ftr = 37;
-    ftr2 = 1;
+    ftr = 28;
+    ftr2 = 49;
     figure;
     for channel = 1:10;
         stopAt = channel*featureAmount;
@@ -44,9 +44,9 @@ for frame=1:1
         hold on 
         plot(posMuSigSq_all(:,1),posMuSigSq_all(:,2),'.');
         hold on
-        plot(posMuSigSq_all(ftr,1),posMuSigSq_all(ftr,2),'x');
+        plot(posMuSigSq_all(ftr,1),posMuSigSq_all(ftr,2),'x','LineWidth',2);
         hold on
-        plot(posMuSigSq_all(ftr2,1),posMuSigSq_all(ftr2,2),'x');
+        plot(posMuSigSq_all(ftr2,1),posMuSigSq_all(ftr2,2),'x','LineWidth',2);
         grid;
         title(['Feature Space Channel' num2str(channel)]);
         xlabel('Mu');
