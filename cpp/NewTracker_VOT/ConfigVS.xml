@@ -1,0 +1,34 @@
+<mil>
+  <nNeg>1000</nNeg>
+  <nPosMax>5</nPosMax>
+  <nSearchMax>2500</nSearchMax>
+  <init_nNeg>5000</init_nNeg>
+
+  <posRadius>0.5</posRadius>
+  <posRadiusScale>0.0</posRadiusScale>
+  <posMinOverlap>0.9</posMinOverlap>
+
+  <negRadius>1.5</negRadius>
+  <negRadiusScale>0.05</negRadiusScale>
+  <negMaxOverlap>0.25</negMaxOverlap>
+
+  <searchRadius>1.</searchRadius>
+  <searchRadiusScale>0.035</searchRadiusScale>
+
+  <scaleStep> 0.03 </scaleStep>
+
+  <!--<negMinRadius>30</negMinRadius>
+    <negMinRadius>30</negMinRadius>
+    <negMinRadiusScale>0.5</negMinRadiusScale>
+    <negMaxRadius>100</negMaxRadius>
+    <negMaxRadiusScale>0.505</negMaxRadiusScale>
+    <sampleNegOnlyBigger>true</sampleNegOnlyBigger>-->
+
+  <!--<searchRadius>50</searchRadius>
+    <searchRadiusScale>0.005</searchRadiusScale>-->
+
+  <learnRate>0.8</learnRate>
+ 
+  <nFeat>250 90 10 </nFeat>
+  <nSel>50</nSel>
+</mil>

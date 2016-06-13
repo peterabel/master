@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<mil>
+  <nNeg>100</nNeg>
+  <nPosMax>100</nPosMax>
+  <nSearchMax>100</nSearchMax>
+  <init_nNeg>100</init_nNeg>
+
+  <posRadius>0.9</posRadius>
+  <posRadiusScale>0.035</posRadiusScale>
+  <posMinOverlap>0.9</posMinOverlap>
+
+  <negRadius>1.5</negRadius>
+  <negRadiusScale>0.05</negRadiusScale>
+  <negMaxOverlap>0.01</negMaxOverlap>
+
+  <searchRadius>1.</searchRadius>
+  <searchRadiusScale>0.035</searchRadiusScale>
+
+  <minhwRatio>0<!--0.125--></minhwRatio>
+  <maxhwRatio>0<!--8.0--></maxhwRatio>
+
+  <scaleStep> 0.03 </scaleStep>
+
+  <learnRate>0.8</learnRate>
+
+  <nFeat>720 </nFeat>
+  <!--<nFeat>360  1000 180 20 </nFeat>-->
+  <nSel>50</nSel>
+</mil>
